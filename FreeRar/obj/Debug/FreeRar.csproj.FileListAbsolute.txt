@@ -1,0 +1,16 @@
+Z:\FreeRar\FreeRar\bin\Debug\FreeRar.exe.config
+Z:\FreeRar\FreeRar\bin\Debug\FreeRar.exe
+Z:\FreeRar\FreeRar\bin\Debug\FreeRar.pdb
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.csprojAssemblyReference.cache
+Z:\FreeRar\FreeRar\obj\Debug\MainWindow.g.cs
+Z:\FreeRar\FreeRar\obj\Debug\App.g.cs
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar_MarkupCompile.cache
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar_MarkupCompile.lref
+Z:\FreeRar\FreeRar\obj\Debug\App.baml
+Z:\FreeRar\FreeRar\obj\Debug\MainWindow.baml
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.g.resources
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.Properties.Resources.resources
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.csproj.GenerateResource.cache
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.csproj.CoreCompileInputs.cache
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.exe
+Z:\FreeRar\FreeRar\obj\Debug\FreeRar.pdb
