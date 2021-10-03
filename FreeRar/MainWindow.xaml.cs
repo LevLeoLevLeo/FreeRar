@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO.Compression;
+using Microsoft.Win32;
+using System.IO;
 
 namespace FreeRar
 {
@@ -29,7 +31,26 @@ namespace FreeRar
         private void BtnArchive_Click(object sender, RoutedEventArgs e)
         {
 
-            
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Title = "Выбор файлов";
+            openFileDialog.Multiselect = true;
+            openFileDialog.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
+            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            ListBox listBox = new ListBox();
+
+
+            if (openFileDialog.ShowDialog() == true)
+
+            {
+                foreach (string filename in openFileDialog.FileNames)
+                {
+
+                    listBox.Items.Add(System.IO.Path.GetFileName(filename));
+
+                }    
+
+            }
+
 
         }
 
